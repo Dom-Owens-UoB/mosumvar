@@ -1,0 +1,25 @@
+{
+    "id": "957E285F",
+    "path": "~/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+    "project_path": "src/Score_Rcpp.cpp",
+    "type": "cpp",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1664876312824.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "cursorPosition": "484,29",
+        "scrollLine": "0",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1677582874,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1684501974171,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,25 @@
+{
+    "id": "DAFCC8C0",
+    "path": "~/Documents/Changepoints/mosumvar/R/Multiscale.R",
+    "project_path": "R/Multiscale.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1664536161047.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "cursorPosition": "24,70",
+        "scrollLine": "0",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1678789766,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1678789766712,
+    "read_only": false,
+    "read_only_alternatives": []
+}

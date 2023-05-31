@@ -1,0 +1,6 @@
+"0","beta0 <- c(1,2,2)"
+"0","X <- cbind(intercept,X1,X2)"
+"0","y0 <- X %*% beta0 + noise"
+"0","X0 <- cbind(y0,X)"
+"0","X0df <- data.frame(X0)"
+"0","colnames(X0df) <- c(""y"",""intercept"",""X1"",""X2"")"

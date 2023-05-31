@@ -1,0 +1,28 @@
+{
+    "args": [
+        "-std=gnu++11",
+        "-I/usr/share/R/include",
+        "-DNDEBUG",
+        "-fopenmp",
+        "-fpic",
+        "-fdebug-prefix-map=/build/r-base-ZLat0n/r-base-4.2.2.20221110=.",
+        "-fstack-protector-strong",
+        "-D_FORTIFY_SOURCE=2",
+        "-I/home/do16317/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include",
+        "-I/home/do16317/R/x86_64-pc-linux-gnu-library/4.2/RcppArmadillo/include",
+        "-I/usr/lib/llvm-6.0/lib/clang/6.0.0/include",
+        "-I/usr/include/c++/7",
+        "-I/usr/include/x86_64-linux-gnu/c++/7",
+        "-I/usr/include/c++/7/backward",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/7/include",
+        "-I/usr/local/include",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+        "-I/usr/include/x86_64-linux-gnu",
+        "-I/usr/include"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "1632838555168502346116073635571607363557",
+    "compiler": "9652731091155674653",
+    "rversion": "4.2.2"
+}

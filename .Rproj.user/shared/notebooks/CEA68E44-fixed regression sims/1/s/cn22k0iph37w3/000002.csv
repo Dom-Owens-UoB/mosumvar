@@ -1,0 +1,5 @@
+"0","n <- 2000"
+"0","intercept <- rep(1,n)"
+"0","X1 <- rnorm(n,1,1)"
+"0","X2 <- rnorm(n,2,1)"
+"0","noise <- rnorm(n, 1,1) # centre 1?"

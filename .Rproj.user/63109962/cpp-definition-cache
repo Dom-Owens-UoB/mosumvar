@@ -1,0 +1,407 @@
+[
+    {
+        "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+        "file_last_write": 1677582874.0,
+        "definitions": [
+            {
+                "usr": "c:@F@H_ik#&$@N@arma@S@Mat>#d#I#I#I#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_ik(arma::mat &, int, int, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 12,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_ik_univ#&$@N@arma@S@Mat>#d#S0_#I#I#I#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_ik_univ(arma::mat &, arma::mat &, int, int, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 35,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_k#&$@N@arma@S@Mat>#d#I#I#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_k(arma::mat &, int, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 59,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_k_univ#&$@N@arma@S@Mat>#d#S0_#I#I#$@N@arma@S@field>#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_k_univ(arma::mat &, arma::mat &, int, int, arma::field<arma::mat>, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 72,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_all#&$@N@arma@S@Mat>#d#I#I#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_all(arma::mat &, int, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 87,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_all_univ#&$@N@arma@S@Mat>#d#S0_#I#I#$@N@arma@S@field>#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_all_univ(arma::mat &, arma::mat &, int, int, arma::field<arma::mat>, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 103,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@blockDiag#&$@N@arma@S@field>#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "blockDiag(arma::field<arma::mat> &)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 157,
+                "column": 14
+            },
+            {
+                "usr": "c:@F@DiagH#$@N@arma@S@Mat>#d#I#I#I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "DiagH(arma::mat, int, int, int, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 224,
+                "column": 14
+            },
+            {
+                "usr": "c:@F@FullH#$@N@arma@S@Mat>#d#I#I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "FullH(arma::mat, int, int, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 252,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@getA#$@N@arma@S@Mat>#d#I#I#I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getA(arma::mat, int, int, int, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 296,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@getsigma_iGlobal#$@N@arma@S@Mat>#d#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getsigma_iGlobal(arma::mat, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 309,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@getsigma_dGlobal#$@N@arma@S@Mat>#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getsigma_dGlobal(arma::mat, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 315,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@getsigma_dLocal#$@N@arma@S@Mat>#d#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getsigma_dLocal(arma::mat, int, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 334,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@DiagC#$@N@arma@S@Mat>#d#I#S0_#I#I#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "DiagC(arma::mat, int, arma::mat, int, int, bool)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 348,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@DiagC_univ#$@N@arma@S@Mat>#d#I#S0_#I#I#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "DiagC_univ(arma::mat, int, arma::mat, int, int, bool)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 390,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@Tkn#$@N@arma@S@Mat>#d#I#I#I#S0_#S0_#S0_#$@N@Rcpp@S@String#S1_#S0_#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "Tkn(arma::mat, int, int, int, arma::mat, arma::mat, arma::mat, Rcpp::String, Rcpp::String, arma::mat, bool)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 430,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@T#$@N@arma@S@Mat>#d#I#I#S0_#S0_#$@N@arma@S@field>#S0_#$@N@Rcpp@S@String#S2_#b#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "T(arma::mat, int, int, arma::mat, arma::mat, arma::field<arma::mat>, Rcpp::String, Rcpp::String, bool, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 485,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@T_univ#$@N@arma@S@Mat>#d#S0_#I#I#S0_#S0_#$@N@arma@S@field>#S0_#$@N@Rcpp@S@String#S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "T_univ(arma::mat, arma::mat, int, int, arma::mat, arma::mat, arma::field<arma::mat>, Rcpp::String, Rcpp::String)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 510,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@cps#$@N@arma@S@Col>#d#d#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cps(arma::vec, double, int, double)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 544,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@test_Score#$@N@arma@S@Mat>#d#I#I#S0_#S0_#d#$@N@Rcpp@S@String#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "test_Score(arma::mat, int, int, arma::mat, arma::mat, double, Rcpp::String)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 568,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@MFA_Score#$@N@arma@S@Mat>#d#I#$@N@arma@S@Col>#d#S0_#S0_#$@N@Rcpp@S@String#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MFA_Score(arma::mat, int, arma::vec, arma::mat, arma::mat, Rcpp::String, double, double)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Score_Rcpp.cpp",
+                "line": 600,
+                "column": 6
+            }
+        ]
+    },
+    {
+        "file": "/home/do16317/Documents/Changepoints/mosumvar/src/VAR_sim.cpp",
+        "file_last_write": 1685024490.0,
+        "definitions": [
+            {
+                "usr": "c:@F@VAR_sim#I#$@N@arma@S@Col>#d#$@N@arma@S@Mat>#d#$@N@arma@S@field>#S1_#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S1_#S1_#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "VAR_sim(int, arma::vec, arma::mat, arma::field<arma::mat>, std::string, arma::mat, arma::mat, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/VAR_sim.cpp",
+                "line": 13,
+                "column": 11
+            }
+        ]
+    },
+    {
+        "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+        "file_last_write": 1677583090.0,
+        "definitions": [
+            {
+                "usr": "c:@F@H_ik_Wald#&$@N@arma@S@Mat>#d#I#I#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_ik_Wald(arma::mat &, int, int, int, arma::vec)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 17,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_k_Wald#&$@N@arma@S@Mat>#d#I#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_k_Wald(arma::mat &, int, int, arma::vec)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 50,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@H_l_u#&$@N@arma@S@Mat>#d#I#I#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "H_l_u(arma::mat &, int, int, int, arma::vec)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 65,
+                "column": 11
+            },
+            {
+                "usr": "c:@S@Matrix_types",
+                "kind": 3,
+                "parent_name": "",
+                "name": "Matrix_types",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 79,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@write_rows2#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "write_rows2(Rcpp::List, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 84,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@a_lu_i#&$@N@arma@S@Mat>#d#I#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "a_lu_i(arma::mat &, int, int, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 118,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@make_a_lu#&$@N@arma@S@Mat>#d#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "make_a_lu(arma::mat &, int, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 161,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@blockDiag_Wald#&$@N@arma@S@field>#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "blockDiag_Wald(arma::field<arma::mat> &)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 173,
+                "column": 14
+            },
+            {
+                "usr": "c:@F@V_nk#$@N@arma@S@Mat>#d#I#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "V_nk(arma::mat, int, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 198,
+                "column": 14
+            },
+            {
+                "usr": "c:@F@sigma_i_k#$@N@arma@S@Mat>#d#I#I#I#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sigma_i_k(arma::mat, int, int, int, int, arma::vec)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 228,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@sigma_d_k#$@N@arma@S@Mat>#d#I#I#I#$@N@arma@S@Col>#d#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sigma_d_k(arma::mat, int, int, int, arma::vec, arma::vec)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 263,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@diagH_Wald#$@N@arma@S@Mat>#d#I#I#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "diagH_Wald(arma::mat, int, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 280,
+                "column": 14
+            },
+            {
+                "usr": "c:@F@FullH_Wald#$@N@arma@S@Mat>#d#I#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "FullH_Wald(arma::mat, int, arma::mat, arma::mat)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 308,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@DiagC_Wald#$@N@arma@S@Mat>#d#I#S0_#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "DiagC_Wald(arma::mat, int, arma::mat, int, int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 351,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@Wkn#$@N@arma@S@Mat>#d#I#I#I#$@N@Rcpp@S@String#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "Wkn(arma::mat, int, int, int, Rcpp::String)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 390,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@floop#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "floop(int)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 423,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@W#$@N@arma@S@Mat>#d#I#I#$@N@Rcpp@S@String#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "W(arma::mat, int, int, Rcpp::String)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 429,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@cps_Wald#$@N@arma@S@Col>#d#d#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cps_Wald(arma::vec, double, int, double)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 459,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@test_Wald#$@N@arma@S@Mat>#d#I#I#d#$@N@Rcpp@S@String#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "test_Wald(arma::mat, int, int, double, Rcpp::String)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 483,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@sim_data#$@N@Rcpp@S@Vector>#VI19#@N@Rcpp@ST>1#T@PreserveStorage#I#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sim_data(Rcpp::List, int, int, double)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 516,
+                "column": 11
+            },
+            {
+                "usr": "c:@F@MFA_Wald#$@N@arma@S@Mat>#d#I#$@N@arma@S@Col>#d#$@N@Rcpp@S@String#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MFA_Wald(arma::mat, int, arma::vec, Rcpp::String, double, double)",
+                "file": "/home/do16317/Documents/Changepoints/mosumvar/src/Wald_RcppParallel.cpp",
+                "line": 560,
+                "column": 6
+            }
+        ]
+    }
+]

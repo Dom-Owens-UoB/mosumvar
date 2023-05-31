@@ -1,0 +1,25 @@
+{
+    "id": "B404052E",
+    "path": "~/Documents/Changepoints/mosumvar/R/mosum_univariate.R",
+    "project_path": "R/mosum_univariate.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1664536166955.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "69,32",
+        "scrollLine": "0",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1684501185,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1684501185137,
+    "read_only": false,
+    "read_only_alternatives": []
+}

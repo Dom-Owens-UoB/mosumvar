@@ -1,0 +1,14 @@
+useDynLib(mosumvar, .registration=TRUE)
+#exportPattern("^[[:alpha:]]+")
+export(mosumvar, VAR.sim, mosumvar.fit, #X1df, X0df, voldata,
+        mosumvar.uni,
+        mosumlm, mosumlm.sub, mosumlm.bs,
+        mosumvar.ms, 
+        mosumvar.sub, mosumvar.bs)
+        #mosumvar.bic)
+importFrom(Rcpp, evalCpp)
+  importFrom("grDevices", "recordPlot")
+  importFrom("graphics", "abline", "legend", "lines", "par")
+  importFrom("stats", "ar", "ar.ols", "lm", "na.omit", "plot.ts",
+             "predict", "quantile", "ts", "ts.plot", "var")
+  importFrom("utils", "head")
