@@ -122,13 +122,13 @@ mosumlm <- function(X, y, G = NULL, intercept = TRUE, method = c("Wald", "Score"
   ##t(ev$vectors) %*% diag( (ev$values)^(-.5) ) %*% (ev$vectors)
   
   if(method == "Wald") { 
-    Croot <-  (ev$vectors) %*% diag( (ev$values)^(.5) ) %*% t(ev$vectors) 
+    Croot <-  (ev$vectors) %*% diag( ev$values^(.5), length(ev$values) ) %*% t(ev$vectors) 
     for (tt in (G+1):(n-G)) {
       stat[tt] <- get_Wk_fixed(yX, k=tt, G, p = p, Croot ) 
     }
   } 
   if(method == "Score"){  
-    C12 <- (ev$vectors) %*% diag( (ev$values)^(-.5) ) %*% t(ev$vectors)
+    C12 <- (ev$vectors) %*% diag( ev$values^(.5), length(ev$values) ) %*% t(ev$vectors)
     mod <- lm(yX[,1] ~ yX[,2:p]-1)
     H <- get_H_fixed(mod,yX[,2:p])
     for (tt in (G+1):(n-G)) {
