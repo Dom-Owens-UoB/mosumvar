@@ -21,7 +21,7 @@ arma::mat VAR_sim(int n, arma::vec mu, arma::mat Sigma, arma::field<arma::mat> c
   }
   if (error_dist == "t"){
     E = rmvt(n1, zeros(d), Sigma,  df);
-    E /= sqrt(df/(df-2));
+    E *= sqrt(df/(df-2));
   }
   if (error_dist == "garch"){ //BEKK(1,1)
     arma::mat Z = mvnrnd( zeros(d), eye(d,d), n1 ).t();
