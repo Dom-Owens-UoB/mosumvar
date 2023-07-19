@@ -31,11 +31,11 @@ mosumvar.ms <- function(x, order, Gset = NULL, method = c("Wald","Score","BS"), 
   alpha <- min(1, max(0, alpha))
   if(is.null(Gset)) {
     G <- default.G(nrow(x), ncol(x), order)
-    Gset <- floor(c(3/4 * G, G, 5/4*G))
+    Gset <- floor(c(G, 4/3*G, 5/3*G))
   }
   out <- NULL
   if(method=="Wald") {
-    out <- MFA_Wald(x,order,Gset,estim,alpha)
+    out <- MFA_Wald(x,order,Gset,estim,alpha,nu)
     cps <- sort(out$ChangePoints)
   }  
   if(method=="Score"){

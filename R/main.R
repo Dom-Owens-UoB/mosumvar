@@ -132,7 +132,7 @@ mosumvar.fit <- function(x,cps, order=NULL, pen = log(nrow(x))^1.01 ){
   RSS <- 0
   out <- as.list(1:(q+1) )
   for (ii in 1:(q+1)) {
-    out[[ii]] <- ar.ols(x[(starts[ii]+1):ends[ii],] , order.max = order)
+    out[[ii]] <- ar.ols(x[(starts[ii]+1):ends[ii],] , order.max = order, aic = is.null(order))
     #out[[ii]]$resid <- na.omit(out[[ii]]$resid) 
     #V <- out[[ii]]$var.pred
     RSS <- RSS + (ends[ii] - starts[ii]+1) *  norm( out[[ii]]$var.pred , type="F")^2 #   sum(diag( t(V) %*% V ))  
